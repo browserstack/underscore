@@ -8,10 +8,11 @@
   "main"          : "underscore.js",
   "version"       : "1.5.1",
   "devDependencies": {
-    "phantomjs": "1.9.0-1"
+    "phantomjs": "1.9.0-1",
+    "browserstack-runner": "git://github.com/browserstack/browserstack-runner"
   },
   "scripts": {
-    "test": "phantomjs test/vendor/runner.js test/index.html?noglobals=true"
+    "test": "phantomjs test/vendor/runner.js test/index.html?noglobals=true && PATH=$PATH:$(npm bin) browserstack-runner"
   },
   "license"       : "MIT",
   "files"         : ["underscore.js", "LICENSE"]

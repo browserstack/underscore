@@ -3,3 +3,7 @@ node_js:
   - 0.8
 notifications:
   email: false
+env:
+  global:
+    - secure: kSzqjygdcEzLY5zIpiLXX/N3moYcA0hoj/LoICe7idOtdXcrFA+b/SOGcmlSAYiZPYyWG44coTPrU2YyCY3XZ6a1WDycdJ3ZpnZxSCCsg2k2zbKts8ILtknbdt9gR/a3ELFq8F2eD8+vtSYWLHNhwjZIAGWOmkJOdFjAUvo8aF4=
+    - secure: M33V9CbChtuD2kzxFWy/c5GEHGXpegAej0UK80DN1ZnRJhKfKPuEc8HYWRbfDouIh7VFMcJQSV2cV3Ew08kbWzoseb2GahG7O6JWu1sreWosqAiKtUXn8gZ9D4MGLI/ILE4m3Jt+UokzrDsgWE7IP48wQteq1WI/ZC1ud01Ek4c=
